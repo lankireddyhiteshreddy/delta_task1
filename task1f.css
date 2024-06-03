@@ -1,0 +1,210 @@
+body {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 153, 255);
+    width: 0px;
+    height: 0px;
+}
+
+.gameBoard {
+    top: 7vw;
+    left: 50vw;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(8, 5vw);
+    grid-template-rows: repeat(8, 5vw);
+}
+
+#tir {
+    position: absolute;
+    left: 15vw;
+    background-color: rgb(253, 0, 0);
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid black;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#tib {
+    position: absolute;
+    top: 35vw;
+    left: 20vw;
+    background-color: blue;
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid black;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#cr {
+    position: absolute;
+    left: 20vw;
+    width: 5vw;
+    height: 5vw;
+    border: 1.5px solid red;
+    background-color: grey;
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+#cb {
+    position: absolute;
+    left: 15vw;
+    top: 35vw;
+    width: 5vw;
+    height: 5vw;
+    border: 1.50px solid blue;
+    background-color: grey;
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+#tr {
+    position: absolute;
+    left: 15vw;
+    top: 10vw;
+    background-color: green;
+    height: 5vw;
+    width: 5vw;
+    border: 1.5px solid red;
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+#tb {
+    position: absolute;
+    left: 20vw;
+    top: 25vw;
+    background-color: green;
+    height: 5vw;
+    width: 5vw;
+    border: 1.5px solid blue;
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+#sr1 {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    background-color: red;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
+}
+
+#sr2 {
+    position: absolute;
+    left: 35vw;
+    width: 5vw;
+    height: 5vw;
+    background-color: red;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+}
+
+#sb1 {
+    position: absolute;
+    top: 35vw;
+    width: 5vw;
+    height: 5vw;
+    background-color: blue;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+}
+
+#sb2 {
+    position: absolute;
+    top: 35vw;
+    left: 35vw;
+    width: 5vw;
+    height: 5vw;
+    background-color: blue;
+    clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+}
+
+#rr {
+    position: absolute;
+    left: 20vw;
+    top: 10vw;
+    background-image: url('slanting_line1.png');
+    background-size: cover;
+    width: 5vw;
+    height: 5vw;
+}
+
+#rb {
+    position: absolute;
+    top: 25vw;
+    left: 15vw;
+    background-image: url('slanting_line1.png');
+    background-size: cover;
+    width: 5vw;
+    height: 5vw;
+}
+
+#timb {
+    position: absolute;
+    text-align: center;
+    font-size: 2vw;
+    width: 8vw;
+    height: 2.2vw;
+    top: 42.9vw;
+    left: 62.5vw;
+    background-color: yellow;
+}
+
+#timr {
+    position: absolute;
+    text-align: center;
+    font-size: 2vw;
+    width: 8vw;
+    height: 2.2vw;
+    top: 0.6vw;
+    left: 30.5vw;
+    background-color: yellow;
+}
+
+#pause {
+    position: absolute;
+    font-size: 1.5vw;
+    top: 0.45vw;
+    left: 61.4vw;
+}
+
+#resume {
+    position: absolute;
+    top: 0.4vw;
+    height: 2.4vw;
+    width: 3vw;
+    left: 64.5vw;
+    font-size: 1.5vw;
+}
+
+#reset {
+    position: absolute;
+    font-size: 1.5vw;
+    height: 2.4vw;
+    width: 3vw;
+    top: 0.4vw;
+    left: 67.6vw;
+}
+
+#back {
+    position: absolute;
+    font-size: 1.5vw;
+    height: 2.4vw;
+    width: 3vw;
+    top: 0.45vw;
+    left: 58.3vw;
+}
+
+#inst {
+    position: absolute;
+    left: 11vw;
+    top: 18vw;
+    background-color: gold;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 1vw;
+}

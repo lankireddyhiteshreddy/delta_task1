@@ -1,0 +1,73 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: url('coverpage.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.message {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1vw;
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.message.entered {
+    height: 14vw;
+    width: 50vw;
+    opacity: 1;
+}
+
+.rules {
+    height: 0;
+    width: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1vw;
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.rules.enter {
+    top: 37vw;
+    height: 74vw;
+    width: 80vw;
+    opacity: 1;
+}
+
+.start {
+    position: absolute;
+    top: 40vw;
+    left: 90%;
+    height: 5vw;
+    width: 8vw;
+    border-radius: 5vw;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#shoot {
+    position: absolute;
+    top: 25vw;
+    left: 46vw;
+    height: 5vw;
+    width: 8vw;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#shoot:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1vw;
+}
