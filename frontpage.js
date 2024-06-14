@@ -106,6 +106,6 @@ shoot.addEventListener('click', () => {
         rule.style.fontSize = '2vw';
     }, 11000)
     start.addEventListener('click', () => {
-        window.location.href = 'index.html';
+        window.location.href = 'task1f.html';
     })
 })
