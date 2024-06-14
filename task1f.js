@@ -813,6 +813,6 @@ buttons.addEventListener('click', (e) => {
         location.reload();
     }
     else if (e.target.id == 'back') {
-        window.location.href = '_1.html';
+        window.location.href = 'main.html';
     }
 })
